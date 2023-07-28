@@ -12,10 +12,11 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/eb4b94184d.js" crossorigin="anonymous"></script>
     <style>
-        .perosonal-info-secs-1{
+        .perosonal-info-secs-1 {
             margin-top: 70px;
-           
+
         }
+
         .personal-info-container {
             display: flex;
             justify-content: center;
@@ -42,6 +43,7 @@
 
         .links-btn-continer {
             margin-top: 10px;
+            display: flex ;
         }
 
         .links-btn {
@@ -50,6 +52,7 @@
             color: white;
             border: 1px solid rgb(59, 59, 227);
             border-radius: 5px;
+            margin: 10px;
 
         }
 
@@ -62,8 +65,17 @@
             color: purple;
 
         }
-        .personal-info-img{
-            filter: drop-shadow( 2px 2px 3px rgb(0, 0, 0));
+
+        .personal-info-img {
+            filter: drop-shadow(2px 2px 3px rgb(0, 0, 0));
+        }
+        .element{
+            font-size: 20px;
+        }
+        .type-js{
+            font-size: 50px;
+            color: purple;
+
         }
     </style>
 
@@ -98,6 +110,7 @@
                 <div class="perosonal-info-secs-1">
                     <h1 class="perosonal-info-header-1">Hi i am <span class="sau-header">Saurabh Jaykar</span> </h1>
                     <h2 class="perosonal-info-header-2">A Passaionnated Web Developer from india.</h2>
+                    <span id="element" class="type-js"></span>
                 </div>
                 <div class="links-btn-continer">
                     <button class="links-btn">
@@ -124,6 +137,14 @@
         </div>
 
     </header>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['I am A Web Devoloper', 'React javascript', '&amp; a Graphic Designer.',],
+            typeSpeed: 50,
+        });
+    </script>
 
 </body>
 
