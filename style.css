@@ -114,6 +114,9 @@ body,
 
         }
         @media screen and (max-width: 600px) {
+            nav{
+                display:none;
+            }
             
             .left {
                 font-size: 1.2rem;
