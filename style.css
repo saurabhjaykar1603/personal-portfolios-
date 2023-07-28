@@ -48,3 +48,68 @@ body,
         .left {
             font-size: 1.2rem;
         }
+        .perosonal-info-secs-1 {
+            margin-top: 70px;
+
+        }
+
+        .personal-info-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 0px;
+            flex-wrap: wrap-reverse;
+        }
+
+        .personal-info-cards {
+            height: 500px;
+            width: 500px;
+            /* background-color: whitesmoke; */
+            text-align: justify;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .perosonal-info-header-1 {
+            font-size: 35px;
+        }
+
+        .perosonal-info-header-2 {
+            margin-top: 10px;
+        }
+
+        .links-btn-continer {
+            margin-top: 10px;
+            display: flex ;
+        }
+
+        .links-btn {
+            padding: 8px 10px 8px 10px;
+            background-color: black;
+            color: white;
+            border: 1px solid rgb(59, 59, 227);
+            border-radius: 5px;
+            margin: 10px;
+
+        }
+
+        .links-btn a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .sau-header {
+            color: purple;
+
+        }
+
+        .personal-info-img {
+            filter: drop-shadow(2px 2px 3px rgb(0, 0, 0));
+        }
+        .element{
+            font-size: 20px;
+        }
+        .type-js{
+            font-size: 50px;
+            color: purple;
+
+        }
