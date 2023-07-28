@@ -114,9 +114,7 @@ body,
 
         }
         @media screen and (max-width: 600px) {
-            body{
-                background-color:red;
-            }
+            
             .left {
                 font-size: 1.2rem;
             }
