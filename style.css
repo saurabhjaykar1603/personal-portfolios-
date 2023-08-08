@@ -168,11 +168,11 @@ nav ul li a:hover {
   margin: 20px auto;
   font-size: 44px;
 }
-.about-container{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   padding: 0 50px;
 }
 .about-container p {
@@ -182,21 +182,18 @@ nav ul li a:hover {
   padding: 45px;
   text-align: center;
   border-radius: 10px;
-  line-height:1.8;
-
+  line-height: 1.8;
 }
 
 .skill-card-main-container {
-margin-bottom:40px;
+  margin-bottom: 40px;
 }
 
-.skill-card-container{
-  display:flex;
-  justify-content:space-evenly;
-  align-items:center;
-  flex-wrap:wrap;
-
-
+.skill-card-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .skill-card {
@@ -207,13 +204,18 @@ margin-bottom:40px;
   background-color: #2196f34a;
   box-shadow: 0 0 5px 2px #00000059;
 }
-.skill-card-img{
-  display:block;
-  height:110px;
-  margin:0 auto;
-  margin-top:10px;
+.skill-card-img {
+  display: block;
+  height: 110px;
+  margin: 0 auto;
+  margin-top: 10px;
 }
-
+.wp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 19px;
+  height: 38px;
+}
 
 @media screen and (max-width: 600px) {
   nav {
@@ -324,36 +326,41 @@ margin-bottom:40px;
   .projects-card-header {
     text-align: center;
     font-size: 46px;
-}
-.about-header {
-  text-align: center;
-  margin: 20px auto;
-  font-size: 35px;
-}
-.about-container p {
-  font-size: 15px;
-  color: #170404;
-  background-color: #80808078;
-  padding: 18px;
-  text-align: center;
-  border-radius: 10px;
-  /* line-height: 1.8; */
-}
+  }
+  .about-header {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 35px;
+  }
+  .about-container p {
+    font-size: 15px;
+    color: #170404;
+    background-color: #80808078;
+    padding: 18px;
+    text-align: center;
+    border-radius: 10px;
+    /* line-height: 1.8; */
+  }
 
-.skill-card-container {
-  display: flex;
-  flex-direction:column;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.skill-card {
-  padding: 21px 79px;
-  border: 1px solid black;
-  border-radius: 10px;
-  object-fit: contain;
-  background-color: #2196f34a;
-  box-shadow: 0 0 5px 2px #00000059;
-  margin: 14px;
-}
+  .skill-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .skill-card {
+    padding: 21px 79px;
+    border: 1px solid black;
+    border-radius: 10px;
+    object-fit: contain;
+    background-color: #2196f34a;
+    box-shadow: 0 0 5px 2px #00000059;
+    margin: 14px;
+  }
+  .wp-icon {
+    position: fixed;
+    bottom: 19px;
+    right: 15px;
+  }
 }
