@@ -106,9 +106,7 @@ nav ul li a:hover {
 }
 
 /* projects-cards  */
-.projects-card-main-container {
-  height: 100vh;
-}
+
 .projects-card-header {
   text-align: center;
   font-size: 50px;
@@ -165,6 +163,28 @@ nav ul li a:hover {
   border: none;
   background-color: #2196f37a;
 }
+.about-header {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 44px;
+}
+.about-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding: 0 50px;
+}
+.about-container p {
+  font-size: 27px;
+  color: #170404;
+  background-color: #80808078;
+  padding: 45px;
+  text-align: center;
+  border-radius: 10px;
+  line-height:1.8;
+}
+
 
 @media screen and (max-width: 600px) {
   nav {
