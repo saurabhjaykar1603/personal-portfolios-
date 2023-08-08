@@ -183,6 +183,35 @@ nav ul li a:hover {
   text-align: center;
   border-radius: 10px;
   line-height:1.8;
+
+}
+
+.skill-card-main-container {
+margin-bottom:40px;
+}
+
+.skill-card-container{
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  flex-wrap:wrap;
+
+
+}
+
+.skill-card {
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  object-fit: contain;
+  background-color: #2196f34a;
+  box-shadow: 0 0 5px 2px #00000059;
+}
+.skill-card-img{
+  display:block;
+  height:110px;
+  margin:0 auto;
+  margin-top:10px;
 }
 
 
@@ -309,5 +338,22 @@ nav ul li a:hover {
   text-align: center;
   border-radius: 10px;
   /* line-height: 1.8; */
+}
+
+.skill-card-container {
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skill-card {
+  padding: 21px 79px;
+  border: 1px solid black;
+  border-radius: 10px;
+  object-fit: contain;
+  background-color: #2196f34a;
+  box-shadow: 0 0 5px 2px #00000059;
+  margin: 14px;
 }
 }
