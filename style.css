@@ -4,6 +4,7 @@ body,
   margin: 0;
   font-family: "Lilita One", cursive;
   font-family: "Zen Maru Gothic", sans-serif;
+  scroll-behavior:smooth;
 }
 
 nav {
