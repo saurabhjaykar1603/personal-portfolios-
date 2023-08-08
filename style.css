@@ -296,4 +296,18 @@ nav ul li a:hover {
     text-align: center;
     font-size: 46px;
 }
+.about-header {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 35px;
+}
+.about-container p {
+  font-size: 15px;
+  color: #170404;
+  background-color: #80808078;
+  padding: 18px;
+  text-align: center;
+  border-radius: 10px;
+  /* line-height: 1.8; */
+}
 }
